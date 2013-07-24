@@ -28,17 +28,17 @@ JBoss configuration (module)
 ----------------------------
 
 Create [JBOSS_HOME]/modules/com/tegonal/airbrake-java-jboss/main/ directory. Copy airbrake-java-jboss-1.0.0.jar to the directory.
-Create the followint module.xml-file:
+Create the following module.xml-file:
 
-<module name="com.tegonal.airbrake-java">
-	<resources>
-		<resource-root path="airbrake-java-jboss-1.0.0.jar"/>
-		<resource-root path="airbrake-java-2.2.9.jar"/>
-	</resources>
-	<dependencies>
-		<module name="org.jboss.logmanager"/>
-	</dependencies>
-</module>
+	<module name="com.tegonal.airbrake-java">
+		<resources>
+			<resource-root path="airbrake-java-jboss-1.0.0.jar"/>
+			<resource-root path="airbrake-java-2.2.9.jar"/>
+		</resources>
+		<dependencies>
+			<module name="org.jboss.logmanager"/>
+		</dependencies>
+	</module>
 
 Support
 -------
