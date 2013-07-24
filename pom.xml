@@ -40,6 +40,12 @@
 			<artifactId>airbrake-java</artifactId>
 			<version>2.2.9-SNAPSHOT</version>
 		</dependency>
+
+		<dependency>
+			<groupId>org.jboss.logmanager</groupId>
+			<artifactId>jboss-logmanager</artifactId>
+			<version>1.2.2.GA</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
